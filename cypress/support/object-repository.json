@@ -1,0 +1,16 @@
+{
+  "contactPage": {
+    "getInTouch": ".button.btn_navy.w-button",
+    "fullName": "input[name='firstname']",
+    "lastName": "input[name='lastname']",
+    "email": "input[name='email']",
+    "phone": "input[name='phone']",
+    "message": "textarea[name='message']",
+    "submitBtn": "input[value='Submit']",
+
+    "errorFullName": "[data-error-for='firstname'], .hs-error-msg:contains('Please complete this required field.')",
+    "errorEmail": "[data-error-for='email'], .hs-error-msg:contains('Email must be formatted correctly.')",
+	"errorEmptyEmail": "[data-error-for='email'], .hs-error-msg:contains('Please complete this required field.')",
+    "errorMessage": "[data-error-for='message'], .hs-error-msg:contains('Please complete this required field.')"
+  }
+}
